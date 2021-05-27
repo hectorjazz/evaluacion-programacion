@@ -83,6 +83,10 @@ por lo que antes de ejecutar este programa debe ejecutar
 ```
 npm install
 ```
-
+BUG: El programa p2.js tiene un pequeño bug y debe ser ejecutado estando en el directorio problemas, ya que desde el directorio raiz no es posible.
+```
+>$cd problemas
+>$node p2.js
+```
 
 ;)
