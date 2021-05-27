@@ -74,8 +74,8 @@ node problemas/p1v2.js
 ## Problema 2
 El segundo problema se enuentra en `problemas/p2.ts`
 
-La estrategia es leer el csv linea a linea y llevar un tracking en memoria de los nodos basado eníndices, para saber donde se debe insertar cada nuevo nodo en el arbol, crea el nodo y lo agrega como hijo al nodo correspondiente.
-De esta forma no depende del orden en que aparecen los datos en el excel.
+La estrategia es leer el csv linea a linea y llevar un tracking en memoria de los nodos basado en índices, para saber donde se debe insertar cada nuevo nodo en el arbol, crea el nodo y lo agrega como hijo al nodo correspondiente.
+De esta forma no depende del orden en que aparecen los datos en el archivo.
 
 Se utilizó la librería `https://www.npmjs.com/package/csv-parser` para leer linea a linea el csv
 
