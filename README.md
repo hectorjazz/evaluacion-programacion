@@ -1,21 +1,6 @@
 # Postulación tuclase.cl
 
-## Problema 1
-
-Este problema tiene 2 versiones, una en javascript simple y otra en typescript
-
-para compilar la version typescript, ejecute 
-```
-npm run build
-```
-y se generará un archivo `problemas/p1v2.js`
-
-para ejecutarlo:
-
-```
-node problemas/p1v2.js
-```
-
+## Problema 1 version js
 La version de javascript pura usa solo funciones para resolver cada una de las problmáticas.
 
 los 3 primeros problemas usa funciones recursivas para atravesar el árbol
@@ -33,7 +18,7 @@ para la cuarta pregunta se optó por una funcion iterativa
 
 Esta funcion devuelve los nombres de las sedes que cumplen con el criterio dado.
 
-## Problema 1 version2
+## Problema 1 version ts
 Hay una versión typescript para el priblema1, hace lo mismo pero encapsula todo en una clase con el comportamiento específico de cada pregunta dada por una interfaz publica.
 
 Además se hace uso de un tipo espacial criterio usado para responder la cuarta pregunta
@@ -74,9 +59,19 @@ let filters = {
 
 tree.getSedes(filters)
 ```
+para compilar la version typescript, ejecute 
+```
+npm run build
+```
+y se generará un archivo `problemas/p1v2.js`
+
+para ejecutarlo:
+
+```
+node problemas/p1v2.js
+```
 
 ## Problema 2
-
 El segundo problema se enuentra en `problemas/p2.ts`
 
 La estrategia es leer el csv linea a linea y llevar un tracking en memoria de los nodos basado eníndices, para saber donde se debe insertar cada nuevo nodo en el arbol, crea el nodo y lo agrega como hijo al nodo correspondiente.
