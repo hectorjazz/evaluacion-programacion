@@ -1,0 +1,20 @@
+{
+  "name": "tctp-evaluacion-programacion",
+  "version": "1.0.0",
+  "description": "Evaluación de habilidades para cargo de Programador",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --resolveJsonModule --esModuleInterop problemas/p1v2.ts --outDir problemas/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@work.github.com:tctp/evaluacion-programacion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0"
+  }
+}
